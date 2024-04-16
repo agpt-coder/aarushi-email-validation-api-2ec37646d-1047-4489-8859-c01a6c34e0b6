@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aarushi-email-validation-api-2"
+version = "0.1.0"
+description = "The task involves developing an endpoint that takes an email address as input and performs several validation checks to determine its legitimacy and validity. The validation process consists of the following steps:"
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+dnspython = "^2.1.0"
+email-validator = "^1.1.3"
+fastapi = "*"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
